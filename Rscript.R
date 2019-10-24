@@ -1,4 +1,4 @@
-# author: s1nzi
+# author: fake-sinzi
 # project: github tutorial
 # ---
 
