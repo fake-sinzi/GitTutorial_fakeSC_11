@@ -6,7 +6,7 @@
 # ---
 
 # load libraries:
-  library(lattice)
+  library(ggplot2)
 # ---
 
 # load data:
@@ -16,8 +16,8 @@
 # Figure description: miles per gallon by horse power per number of cylinders:
 # ---
 
-  xyplot(mpg ~ hp),
-         data = mtcars,
-         col = "magenta")
-
+  ggplot(data = mtcars)+
+  geom_point(aes(x = mgp, y = hp), col = "magenta")+
+  theme_bw()
+  
 # --- end-of-script --- 
