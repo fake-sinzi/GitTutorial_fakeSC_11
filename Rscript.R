@@ -2,7 +2,7 @@
 # project: github tutorial
 # ---
 
-# script purpose: make mtcars plots
+# script purpose: make mtcars fancy ggplots
 # ---
 
 # load libraries:
@@ -17,9 +17,9 @@
 # ---
 
   ggplot(data = mtcars)+
-  geom_point(aes(x = mgp, y = hp), col = "magenta")+
+  geom_point(aes(x = mgp, y = hp), col = "purple")+
   theme_bw()+
-  ggtitle("Cars in action")+
+  ggtitle("Cars in action for R ladies presentation")+
   xlab("miles per gallon")+
   ylab("horse power")
   
