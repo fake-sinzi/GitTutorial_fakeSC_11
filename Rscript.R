@@ -18,6 +18,9 @@
 
   ggplot(data = mtcars)+
   geom_point(aes(x = mgp, y = hp), col = "magenta")+
-  theme_bw()
+  theme_bw()+
+  ggtitle("Cars in action")+
+  xlab("miles per gallon")+
+  ylab("horse power")
   
 # --- end-of-script --- 
